@@ -1,0 +1,7 @@
+tunnel: LineNotify  
+credentials-file: C:\Users\scops\.cloudflared\65e40f69-0a87-4d4f-b5f5-a37b3708cc31.json
+
+ingress:
+  - hostname: infomation-boss.com
+    service: http://localhost:80
+  - service: http_status:404
